@@ -1,0 +1,33 @@
+.mirrored-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.blue {
+  background: linear-gradient(135deg, #6b3fd4 0%, #8b5cf6 50%, #a855f7 100%);
+}
+.green {
+  background: linear-gradient(135deg, #30c148 0%, #27c14b 50%, #11bf5195 100%);
+}
+
+.mirrored-background::before,
+.mirrored-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  background-image: url("../../assets/vector1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.mirrored-background::before {
+  left: 0;
+}
+
+.mirrored-background::after {
+  right: 0;
+  transform: scaleX(-1);
+}
