@@ -1,5 +1,4 @@
 import React from "react";
-
 const Task = ({ td, handleCompleteTask }) => {
   return (
     <div>
@@ -9,7 +8,9 @@ const Task = ({ td, handleCompleteTask }) => {
             <h2 className="card-title text-lg">{td.title} </h2>
           </div>
           <div
-            onClick={() => handleCompleteTask(td.id)}
+            onClick={() => {
+              handleCompleteTask(td.id);
+            }}
             className="btn btn-block bg-green-600 text-white"
           >
             Complete

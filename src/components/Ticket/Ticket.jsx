@@ -3,6 +3,8 @@ import SingleTicket from "./SingleTicket";
 import Task from "./Task";
 import Progress from "../Progress/Progress";
 
+import { ToastContainer, toast } from "react-toastify";
+
 const Ticket = () => {
   const [ticketData, setTicketData] = useState([]);
   const [task, setTask] = useState([]);
@@ -23,7 +25,11 @@ const Ticket = () => {
     setCompletedTask(updatedCompletedTask);
     setTask(task.filter((t) => t !== id));
     setResolvedTask([...resolvedTask, id]);
+
+    notify();
   };
+
+  const notify = () => toast("Completed customer ticket!");
 
   return (
     <>
@@ -93,6 +99,8 @@ const Ticket = () => {
           </div>
         </div>
       </div>
+
+      <ToastContainer />
     </>
   );
 };
