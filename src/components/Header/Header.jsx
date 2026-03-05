@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="navbar bg-gray-100 text-gray-700 shadow-sm ">
         <div className="navbar w-11/12 mx-auto rounded-lg">
-          <div className="navbar-start ">
+          <div className="lg:navbar-start ">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -80,7 +80,9 @@ const Header = () => {
                 <a>Contact</a>
               </li>
               <li>
-                <button className="btn btn-primary">+ New Ticket</button>
+                <button className="btn bg-gradient-to-br from-violet-700 via-violet-500 to-purple-400 text-white font-medium border-none">
+                  + New Ticket
+                </button>
               </li>
             </ul>
           </div>

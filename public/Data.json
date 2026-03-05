@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login page not loading",
+    "description": "Users are unable to access the login page. The page shows a blank white screen after the URL is entered.",
+    "customer": "Acme Corp",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "1/10/26"
+  },
+  {
+    "id": 1002,
+    "title": "Invoice PDF export broken",
+    "description": "Exporting invoices to PDF results in a corrupted file. Issue occurs for all invoice types.",
+    "customer": "Globex Inc",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "1/12/26"
+  },
+  {
+    "id": 1003,
+    "title": "Add dark mode support",
+    "description": "Customer requests a dark mode toggle in the user settings panel for better accessibility.",
+    "customer": "Initech",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "1/14/26"
+  },
+  {
+    "id": 1004,
+    "title": "Dashboard charts not rendering",
+    "description": "The analytics dashboard shows empty chart containers. Issue is reproducible on Chrome and Firefox.",
+    "customer": "Umbrella Ltd",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "1/15/26"
+  },
+  {
+    "id": 1005,
+    "title": "Email notifications delayed",
+    "description": "Transactional emails are arriving 2–3 hours late. Affects password reset and order confirmation emails.",
+    "customer": "Acme Corp",
+    "priority": "high",
+    "status": "resolved",
+    "createdAt": "1/16/26"
+  },
+  {
+    "id": 1006,
+    "title": "User profile picture upload fails",
+    "description": "Uploading a profile picture returns a 500 error. Only affects files larger than 2MB.",
+    "customer": "Hooli",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "1/17/26"
+  },
+  {
+    "id": 1007,
+    "title": "Search results returning incorrect data",
+    "description": "The global search feature returns unrelated results when special characters are used in the query.",
+    "customer": "Globex Inc",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "1/18/26"
+  },
+  {
+    "id": 1008,
+    "title": "Two-factor authentication not working",
+    "description": "Users with 2FA enabled cannot complete login. The OTP verification step throws a timeout error.",
+    "customer": "Initech",
+    "priority": "critical",
+    "status": "open",
+    "createdAt": "1/19/26"
+  },
+  {
+    "id": 1009,
+    "title": "Bulk delete not removing all records",
+    "description": "When selecting all records and using bulk delete, only the first page of results is deleted.",
+    "customer": "Umbrella Ltd",
+    "priority": "medium",
+    "status": "resolved",
+    "createdAt": "1/20/26"
+  },
+  {
+    "id": 1010,
+    "title": "API rate limit too restrictive",
+    "description": "The current rate limit of 100 requests/min is too low for our integration. Requesting an increase to 500/min.",
+    "customer": "Hooli",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "1/21/26"
+  },
+  {
+    "id": 1011,
+    "title": "CSV import ignoring header row",
+    "description": "When importing data via CSV, the first row (header) is being treated as a data entry and imported.",
+    "customer": "Acme Corp",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "1/22/26"
+  },
+  {
+    "id": 1012,
+    "title": "Mobile layout broken on iOS Safari",
+    "description": "Several UI components overlap on iPhone devices using Safari. The issue does not appear on Android.",
+    "customer": "Globex Inc",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "1/23/26"
+  },
+  {
+    "id": 1013,
+    "title": "Timezone mismatch in scheduled reports",
+    "description": "Scheduled reports are being sent based on UTC instead of the user's local timezone setting.",
+    "customer": "Initech",
+    "priority": "medium",
+    "status": "resolved",
+    "createdAt": "1/24/26"
+  },
+  {
+    "id": 1014,
+    "title": "Permission roles not saving",
+    "description": "Changes made to user permission roles revert to previous settings after page refresh.",
+    "customer": "Umbrella Ltd",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "1/25/26"
+  },
+  {
+    "id": 1015,
+    "title": "Onboarding wizard skips step 3",
+    "description": "New users going through the onboarding flow are automatically skipped past step 3 (team setup).",
+    "customer": "Hooli",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "1/26/26"
+  }
+]
